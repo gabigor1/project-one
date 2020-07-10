@@ -27,13 +27,14 @@ Space invaders is a classic arcade game, the main objective it's to destroy all 
 
 ## How to use it
 
-At the top of the screen you have a button with Start Game, if you press it the game start, you can move the tank only horizontally with the arrow keys and shoot the laser with the space bar.
+At the top of the screen, you have a button with Start Game, if you press it the game start, you can move the tank only horizontally with the arrow keys and shoot the laser with the space bar.
 
 ## Process
 
-Before I started to code, I decided to do some research about the game. I decided to use a large grid to have more aliens and give the player more time to destroy the aliens
+Before I started to code, I decided to do some research about the game. I decided to use a large grid to have more aliens and give the player more time to destroy the aliens.
 
-The starting point was creating a basic grid which the aliens could move in a certain period of time, and the player could shoot and move the tank. This was created using a list of divs in the HTML. Each cell have an individual value, which I used to move the aliens, the tank and the laser.
+The starting point was creating a basic grid in which the aliens could move in a certain period of time, and the player could shoot and move the tank. This was created using a list of divs in the HTML. Each cell has an individual value, which I used to move the aliens, the tank, and the laser.
+
 
 ```
 function createdGrid(startingPosition1) { // * creates the grip and the initial position of the aliens and the tank
@@ -53,21 +54,21 @@ function createdGrid(startingPosition1) { // * creates the grip and the initial 
 
 ```
 
-I created the aliens as objects which each alien contain his position if his status is dead or alive. All the aliens have the same image. The tank have only the value of his initial position.
-
+I created the aliens as objects in which each alien contains his position if his status is dead or alive. All the aliens have the same image. The tank has only the value of his initial position.
+ 
 ![Game](/assets/Game.png)
-
-While the game is running, a function runs through aliens moves each alien with the corresponding movement patterns. Also there is another function to check if a laser hits an alien to remove it and give 100 points to the player.
-
+ 
+While the game is running, a function runs through aliens moves each alien with the corresponding movement patterns. Also, there is another function to check if a laser hits an alien to remove it and give 100 points to the player.
+ 
 ![Game](/assets/Alienmove.png)
-
-In addition there's a function which controls the horizontally movement of the tank with arrow keys. Also there is a function that each time you press the spacebar the tank shoots (creates) a laser that moves vertically.
+ 
+In addition, there's a function that controls the horizontal movement of the tank with arrow keys. Also, there is a function that each time you press the spacebar the tank shoots (creates) a laser that moves vertically.
 
 ![Game](/assets/Laser.png)
 
 ## Win 
 
-Making the logic for the aliens was a big win for me. I got a lot of problems trying to build it, in particular with the movement and when a laser collisions a remove one.
+Making the logic for the aliens was a big win for me. I got a lot of problems trying to build it, in particular with the movement and when laser collisions remove one.
 
 ```
  function alienMove() { // * function to move the aliens with their logic
@@ -123,21 +124,21 @@ Making the logic for the aliens was a big win for me. I got a lot of problems tr
 
 ## Challenges
 
-This was the first project for the course. In this proyect, I have to find resources and use my knowledge to design and create the Space Invaders game, it was a hard task. One of my first problems was the logic of the movement of the aliens. I got problems when they reach a corner and try to go down, they moved down and later go up again. I spent a lot of time with the logic.
-
-
+This was the first project for the course. In this project, I have to find resources and use my knowledge to design and create the Space Invaders game, it was a hard task. One of my first problems was the logic of the movement of the aliens. I got problems when they reach a corner and try to go down, they moved down and later go up again. I spent a lot of time with logic.
+ 
+ 
 ## Bugs
-
+ 
 * If you press too fast the spacebar the laser overlap.
 * Sometimes laser destroys the next alien.
-
+ 
 ## Resources
-
-I used images of invaders, the laser and the tank from Sprites Resources. The sound and music is from Classic Gaming.
-
+ 
+I used images of invaders, the laser, and the tank from Sprites Resources. The sound and music are from Classic Gaming.
+ 
 * [Sprites Resources] (https://www.spriters-resource.com/)
 * [Classic Gaming Sounds] (https://www.classicgaming.cc/classics/space-invaders/sounds)
-
+ 
 ## Learnings
-
-This was my first project, I learn some much about functions how they work, how they can communicate to others functions. Also I learn a lot about lopping and conditionals to make events happend.
+ 
+This was my first project, I learn some much about functions how they work, how they can communicate with other’s functions. Also, I learn a lot about lopping and conditionals to make events happened.
