@@ -1,6 +1,6 @@
 # sei-project-one
 
-General Assembly Project 1 : Make a game - Space Invaders
+General Assembly Project 1: Make a game - Space Invaders
 
 ## Goal: 
 To create a game with HTML5, CSS and Javascript
@@ -17,7 +17,7 @@ Timeframe: 8 days
 
 ## Overview
 
-Space invaders is a classic arcade game, the main objective it's to destroy all the aliens before they reach the tank.
+Space invaders are a classic arcade game, the main objective it's to destroy all the aliens before they reach the tank.
 
 ## Technologies
 
@@ -130,7 +130,7 @@ This was the first project for the course. In this project, I have to find resou
 ## Bugs
  
 * If you press too fast the spacebar the laser overlap.
-* Sometimes laser destroys the next alien.
+* Sometimes the laser destroys the next alien.
  
 ## Resources
  
