@@ -1,6 +1,7 @@
 # sei-project-one
 
-General Assembly Project 1: Make a game - Space Invaders
+## Space Invaders
+### General Assembly Project 1
 
 ## Goal: 
 To create a game with HTML5, CSS and Javascript
@@ -54,7 +55,7 @@ function createdGrid(startingPosition1) { // * creates the grip and the initial 
 
 ```
 
-I created the aliens as objects in which each alien contains his position if his status is dead or alive. All the aliens have the same image. The tank has only the value of his initial position.
+I created the aliens as objects in which each alien contains its position if its status is dead or alive. All the aliens have the same image. The tank has only the value of its initial position.
  
 ![Game](/assets/Game.png)
  
@@ -124,12 +125,12 @@ Making the logic for the aliens was a big win for me. I got a lot of problems tr
 
 ## Challenges
 
-This was the first project for the course. In this project, I have to find resources and use my knowledge to design and create the Space Invaders game, it was a hard task. One of my first problems was the logic of the movement of the aliens. I got problems when they reach a corner and try to go down, they moved down and later go up again. I spent a lot of time with logic.
+This was the first project for the course. In this project, I had to find resources and use my knowledge to design and create the Space Invaders game, it was a hard task. One of my first problems was the logic of the movement of the aliens. I got problems when they reach a corner and try to go down, they moved down and later go up again. I spent a lot of time with logic.
  
  
 ## Bugs
  
-* If you press too fast the spacebar the laser overlap.
+* If you press too fast the spacebar the laser overlaps.
 * Sometimes the laser destroys the next alien.
  
 ## Resources
