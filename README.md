@@ -135,11 +135,11 @@ This was the first project for the course. In this project, I had to find resour
  
 ## Resources
  
-I used images of invaders, the laser, and the tank from Sprites Resources. The sound and music are from Classic Gaming.
+I used images of the invaders, the laser, and the tank from Sprites Resources. The sound and music are from Classic Gaming.
  
 * [Sprites Resources] (https://www.spriters-resource.com/)
 * [Classic Gaming Sounds] (https://www.classicgaming.cc/classics/space-invaders/sounds)
  
 ## Learnings
  
-This was my first project, I learn some much about functions how they work, how they can communicate with other’s functions. Also, I learn a lot about lopping and conditionals to make events happened.
+This was my first project, I learned so some much about functions how they work, how they can do more than communicate, it should be interact with other’s functions. Also, I learned a lot about lopping and conditionals to make events happen.
