@@ -18,7 +18,7 @@ Timeframe: 8 days
 
 ## Overview
 
-Space invaders are a classic arcade game, the main objective it's to destroy all the aliens before they reach the tank.
+Space invaders is a classic arcade game, the main objective is to destroy all the aliens before they reach the tank.
 
 ## Technologies
 
@@ -69,7 +69,7 @@ In addition, there's a function that controls the horizontal movement of the tan
 
 ## Win 
 
-Making the logic for the aliens was a big win for me. I got a lot of problems trying to build it, in particular with the movement and when laser collisions remove one.
+Making the logic for the aliens was a big win for me. I experienced a lot of problems trying to build it, in particular with the movement and when laser collisions.
 
 ```
  function alienMove() { // * function to move the aliens with their logic
@@ -125,12 +125,12 @@ Making the logic for the aliens was a big win for me. I got a lot of problems tr
 
 ## Challenges
 
-This was the first project for the course. In this project, I had to find resources and use my knowledge to design and create the Space Invaders game, it was a hard task. One of my first problems was the logic of the movement of the aliens. I got problems when they reach a corner and try to go down, they moved down and later go up again. I spent a lot of time with logic.
+This was the first project for the course. In this project, I had to find resources and use my knowledge to design and create the Space Invaders game, it was a hard task. One of my first problems was the logic of the movement of the aliens. I experienced a lot of problems when they reach a corner and try to go down, they moved down and later go up again. I spent a lot of time with logic.
  
  
 ## Bugs
  
-* If you press too fast the spacebar the laser overlaps.
+* If you press the spacebar too fast the laser overlaps.
 * Sometimes the laser destroys the next alien.
  
 ## Resources
@@ -142,4 +142,4 @@ I used images of the invaders, the laser, and the tank from Sprites Resources. T
  
 ## Learnings
  
-This was my first project, I learned so some much about functions how they work, how they can do more than communicate, it should be interact with other’s functions. Also, I learned a lot about lopping and conditionals to make events happen.
+This was my first project, I learned so some much about functions, how they work and how they can do more than communicate, it should be interact with other’s functions. Also, I learned a lot about lopping and conditionals to make events happen.
