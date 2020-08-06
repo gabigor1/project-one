@@ -59,7 +59,7 @@ I created the aliens as objects in which each alien contains its position if its
  
 ![Game](/assets/Game.png)
  
-While the game is running, a function runs through aliens moves each alien with the corresponding movement patterns. Also, there is another function to check if a laser hits an alien to remove it and give 100 points to the player.
+While the game is running, a function runs through the aliens movement, each alien move with the corresponding movement patterns. Also, there is another function to check if a laser hits an alien to remove it and give 100 points to the player.
  
 ![Game](/assets/Alienmove.png)
  
@@ -69,7 +69,7 @@ In addition, there's a function that controls the horizontal movement of the tan
 
 ## Win 
 
-Making the logic for the aliens was a big win for me. I experienced a lot of problems trying to build it, in particular with the movement and when laser collisions.
+Making the logic for the aliens was a big win for me. I experienced a lot of problems trying to build it, in particular with the movement and when the lasers collided with aliens.
 
 ```
  function alienMove() { // * function to move the aliens with their logic
@@ -125,7 +125,7 @@ Making the logic for the aliens was a big win for me. I experienced a lot of pro
 
 ## Challenges
 
-This was the first project for the course. In this project, I had to find resources and use my knowledge to design and create the Space Invaders game, it was a hard task. One of my first problems was the logic of the movement of the aliens. I experienced a lot of problems when they reach a corner and try to go down, they moved down and later go up again. I spent a lot of time with logic.
+This was the first project for the course. In this project, I had to find resources and use my knowledge to design and create the Space Invaders game, it was a hard task. One of my first problems was the logic of the movement of the aliens. I experienced a lot of problems when they reached a corner and try to go down, they moved down and later go up again. I spent a lot of time with logic.
  
  
 ## Bugs
@@ -142,4 +142,4 @@ I used images of the invaders, the laser, and the tank from Sprites Resources. T
  
 ## Learnings
  
-This was my first project, I learned so some much about functions, how they work and how they can do more than communicate, it should be interact with other’s functions. Also, I learned a lot about lopping and conditionals to make events happen.
+This was my first project, I learned so some much about functions, how they work and how they can do more than communicate, it should interact with other’s functions. Also, I learned a lot about lopping and conditionals to make events happen.
